@@ -15,7 +15,8 @@ The Bootstrap is a requirement for the improvements to install properly, so this
 1. Enable root access on the K2 Plus by going to Settings, General tab and root on the physical screen. Take note of the password.
 2. SSH to the K2 Plus using any terminal tool (e.g. PuTTy) using the printers ip adress, port 22, user "root" and the password noted in step 1.
 > [!TIP]
-> It's recommended to perform a wipe prior to install due to potential conflicts with previous mods enter the command `echo "all" | /usr/bin/nc -U /var/run/wipe.sock` into your terminal. 
+> It's recommended to perform a wipe prior to install due to potential conflicts with previous mods enter the command `echo "all" | /usr/bin/nc -U /var/run/wipe.sock` into your terminal.
+> [!TIP] 
 > If you execute a wipe, you will need to go through setup on the K2 screen and complete all the way through creality cloud connection. This will give you the wifi/network connection that you will need and connect appropriately to creality cloud. Stop at the calibration, you can do this later.
 3. Download bootstrap [https://github.com/jamincollins/k2-improvements/releases/tag/bootstrap](https://github.com/jamincollins/k2-improvements/releases/tag/bootstrap) and extract the folder.
 4. To install the bootstrap, connect to your K2 Plus's Fluid interface via browser **http://PrinterIP:4408**
